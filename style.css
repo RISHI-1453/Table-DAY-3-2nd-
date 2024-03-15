@@ -46,6 +46,6 @@ img{
 }
 
 .t img:hover {
-    transform: scale(3); 
+    transform: scale(1.5); 
     transition: transform 0.3s ease; 
 }
