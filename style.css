@@ -1,0 +1,51 @@
+body{
+    background: url("https://media.istockphoto.com/id/1089926184/photo/india-and-australia-two-flags-together-realations-textile-cloth-fabric-texture.jpg?s=612x612&w=0&k=20&c=gig-ENMMf1jZVSeRe8VjAEQgom_F5T0BgHk9ypbfuAE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+h3{
+    color: white;
+    font-size: xx-large;
+}
+
+
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px;
+}
+
+.t img:hover {
+    transform: scale(3); 
+    transition: transform 0.3s ease; 
+}
